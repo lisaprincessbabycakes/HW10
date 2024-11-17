@@ -11,4 +11,12 @@ https://www.youtube.com/watch?time_continue=608&v=yAyiQKNVtY8&embeds_referring_e
 
 the challenge is to create something abstract like sound waves and then translate them into a visual experience that felt immersive and dynamic... i tried to make the aprticles feel reactive without becoming too chaotic. The key aspects were the particles movement and using the class function to manage individual particles' positions, velocities and reactions to sound. The frequency analysis was acheived with the FFT spectrum that is user to drive the particle behavior. Then I dectect the low frequency energy by using function fft.getEnergy(20, 100) that calculates the energy of low-frequency bands, affecting particles.
 
+# HW10B
 
+the song i picked for this visualization is apple by charli xcx because i thought it would be a nice song to work with due to its lively and dynamic track. 
+
+I used the getPeaks() to extracts the amplitude samples of the song, and then scaled it to match the canvas. the peaks array represents the song's amplitude over time. this information is used to create a waveform that is abstract. 
+
+I thought that visualization was kinda boring and looked like a normal graph, so i decided to make use of apple emojis at each peak to make it more thematic to the concept of the song. 
+
+[![Screenshot-2024-11-17-at-3-11-42-PM.png](https://i.postimg.cc/kgw0Ynkg/Screenshot-2024-11-17-at-3-11-42-PM.png)](https://postimg.cc/3k4fdH8s)

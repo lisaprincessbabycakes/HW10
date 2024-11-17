@@ -22,7 +22,7 @@ function setup() {
 function drawWaveform() {
   translate(0, height/2); 
 
-  let colors = [color(50, 123, 233, 90), color(200, 20, 223)];
+  let colors = [color(230, 123, 233, 90), color(200, 20, 223)];
 
 
   for (let i = 0; i < peaks.length - 1; i++) {
